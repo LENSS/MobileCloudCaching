@@ -1,0 +1,12 @@
+#
+# SimpleFS configuration
+#
+
+config simpleFS
+	tristate "A Simple File System"
+	default n
+	help
+	  This is a simple file system, for supporting file creation and retrieving for k-out-of-n computing.
+	  If unsure, say N.
+
+

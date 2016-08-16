@@ -1,0 +1,12 @@
+#
+# Caching Daemon configuration
+#
+
+config caching
+	tristate "A Caching Daemon"
+	default n
+	help
+	  This is a kernel moduler, for supporting distributed caching for k-out-of-n computing.
+	  If unsure, say N.
+
+

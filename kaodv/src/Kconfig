@@ -1,0 +1,12 @@
+#
+# AODV configuration
+#
+
+config KAODV
+	tristate "Kernel AODV"
+	default n
+	help
+	  This is a kernel moduler, for supporting AODV routing protocol.
+	  If unsure, say N.
+
+
